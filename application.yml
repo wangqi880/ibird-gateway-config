@@ -1,0 +1,7 @@
+zuul:
+  ignored-services: '*'
+  routes:
+    launchPropv2:
+      path: /v1.0/content/launchProp.do
+      service-id: content-service
+  retryable: false
